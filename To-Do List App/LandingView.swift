@@ -15,11 +15,16 @@ struct LandingView: View {
         NavigationView{
             VStack{
                 List{
-                    
+                    HStack{
+                       Image(systemName: "circle")
+                        Text("Study for Chemistry quiz")
+                    }
                 }
                 .searchable(text: $searchText)
                 HStack{
                     TextField("Enter a to-do item", text: $newItemDesciption)
+                    
+                    
                     
                 }
                 .padding()
@@ -30,6 +35,7 @@ struct LandingView: View {
         
 
     }
+   
 }
 
 #Preview {
