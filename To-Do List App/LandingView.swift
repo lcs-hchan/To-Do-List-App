@@ -11,19 +11,22 @@ struct LandingView: View {
     @State var newItemDesciption: String = ""
     
     @State var searchText = ""
+    
+    @State var todos: [TodoItem] = exampleItems
     var body: some View {
         NavigationView{
             VStack{
-                List{
-                    HStack{
-                       Image(systemName: "circle")
-                        Text("Study for Chemistry quiz")
-                    }
+                List(todos) { todo in
+                   ItemView(currentItem: todo )
+                
                 }
                 .searchable(text: $searchText)
                 HStack{
                     TextField("Enter a to-do item", text: $newItemDesciption)
-                    
+                    Button("Add"){
+                        
+                    }
+                    .font(.caption)
                     
                     
                 }
