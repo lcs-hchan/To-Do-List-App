@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct LandingView: View {
     @State var newItemDesciption: String = ""
@@ -13,6 +14,8 @@ struct LandingView: View {
     @State var searchText = ""
     
     @State var todos: [TodoItem] = exampleItems
+    
+    @Environment(\.modelContext) var modelContext
     var body: some View {
         NavigationView{
             VStack{
