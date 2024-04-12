@@ -12,6 +12,7 @@ struct To_Do_List_AppApp: App {
     var body: some Scene {
         WindowGroup {
             LandingView()
+                .modelContainer(for: TodoItem.self)
         }
     }
 }
