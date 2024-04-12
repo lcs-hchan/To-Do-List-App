@@ -13,6 +13,7 @@
 		8B1E58942BC0316C0034CF33 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E58932BC0316C0034CF33 /* LandingView.swift */; };
 		8B26E3752BC464CF00C62322 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26E3742BC464CF00C62322 /* ItemView.swift */; };
 		8B26E3772BC464DD00C62322 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B26E3762BC464DD00C62322 /* TodoItem.swift */; };
+		8BB318B32BC96C6E00F0CEDA /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB318B22BC96C6E00F0CEDA /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		8B1E58932BC0316C0034CF33 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		8B26E3742BC464CF00C62322 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		8B26E3762BC464DD00C62322 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		8BB318B22BC96C6E00F0CEDA /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				8B1E58852BC0311E0034CF33 /* To_Do_List_AppApp.swift */,
 				8B26E3762BC464DD00C62322 /* TodoItem.swift */,
+				8BB318B22BC96C6E00F0CEDA /* Functions.swift */,
 				8B1E58932BC0316C0034CF33 /* LandingView.swift */,
 				8B26E3742BC464CF00C62322 /* ItemView.swift */,
 				8B1E58892BC0311F0034CF33 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				8B1E58942BC0316C0034CF33 /* LandingView.swift in Sources */,
 				8B26E3752BC464CF00C62322 /* ItemView.swift in Sources */,
 				8B26E3772BC464DD00C62322 /* TodoItem.swift in Sources */,
+				8BB318B32BC96C6E00F0CEDA /* Functions.swift in Sources */,
 				8B1E58862BC0311E0034CF33 /* To_Do_List_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
