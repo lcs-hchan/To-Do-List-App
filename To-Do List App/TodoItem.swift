@@ -8,7 +8,7 @@
 import SwiftData
 
 @Model
-struct TodoItem: Identifiable{
+class TodoItem: Identifiable{
     var title: String
     var done: Bool
     
