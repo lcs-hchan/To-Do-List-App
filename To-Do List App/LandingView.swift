@@ -27,9 +27,7 @@ struct LandingView: View {
                                 }
                             )
                         }
-                        .onTapGesture {
-                            todo.done.toggle()
-                        }
+                        
                     
                 }
                 .searchable(text: $searchText)

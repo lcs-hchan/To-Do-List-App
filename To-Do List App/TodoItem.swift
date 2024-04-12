@@ -8,7 +8,7 @@
 import SwiftData
 
 @Model
-class TodoItem: Identifiable{
+struct TodoItem: Identifiable{
     var title: String
     var done: Bool
     
@@ -16,6 +16,7 @@ class TodoItem: Identifiable{
         self.title = title
         self.done = done
     }
+    
 }
 let firstItem = TodoItem(title: "Study", done: true)
 
